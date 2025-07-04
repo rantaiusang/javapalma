@@ -7,9 +7,7 @@
     "build": "vite build",
     "dev": "vite"
   },
-  "dependencies": {},
-  "devDependencies": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
 }
