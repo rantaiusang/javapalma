@@ -1,5 +1,15 @@
-"scripts": {
-  "start": "vite",
-  "build": "vite build",
-  "dev": "vite"
+{
+  "name": "javapalma",
+  "version": "1.0.0",
+  "description": "Frontend DApp Javapalma",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
