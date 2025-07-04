@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  color: #000;
+}
+
+nav {
+  background-color: #008000;
+  color: white;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+}
+
+/* === DARK MODE === */
+body.dark {
+  background-color: #121212;
+  color: #eee;
+}
+
+body.dark nav {
+  background-color: #222;
+}
+
+body.dark a {
+  color: #90caf9;
+}

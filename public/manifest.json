@@ -1,0 +1,16 @@
+{
+  "short_name": "JavaPalma",
+  "name": "JavaPalma DApp",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#ffffff",
+  "theme_color": "#008000",
+  "display": "standalone",
+  "scope": "/"
+}
