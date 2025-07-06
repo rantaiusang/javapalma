@@ -1,12 +1,13 @@
-/import { defineConfig } from 'vite'
+import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'dist',
+    outDir: 'dist'
   },
   server: {
-    historyApiFallback: true
+    port: 3000,
+    open: true
   }
 })
