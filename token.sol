@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
@@ -8,8 +8,8 @@ contract JAVAPALMA is ERC20, Ownable {
     uint256 public constant MAX_SUPPLY = 50_000_000 * 1e18;
     mapping(address => bool) public hasClaimed;
 
-    constructor() ERC20("JAVAPALMA", "JAVAPALMA") {
-        _mint(msg.sender, MAX_SUPPLY); // Mint semua supply ke deployer (owner)
+    constructor() ERC20("JAVAPALMA", "JAVAPALMA") Ownable(msg.sender) {
+        _mint(msg.sender, MAX_SUPPLY);
     }
 
     function claim() external {
